@@ -4,7 +4,7 @@ import argparse
 import Constants
 
 from hackthebox import HTBClient
-from templates_md import get_machine_template, get_machine_template, get_index_template, get_recon_template, get_exploitation_template, get_post_exploitation_template
+from templates_md import get_machine_template, get_machine_template, get_index_template, get_recon_template, get_exploitation_template, get_post_exploitation_template get_playbook_template
 
 # Params
 parser = argparse.ArgumentParser(description='A test program.')
@@ -79,7 +79,9 @@ if not os.path.exists(MACHINE_FOLDER_PATH):
     with open(os.path.join(MACHINE_FOLDER_PATH, "03-post-exploitation.md"), 'w') as temp_file:
         temp_file.writelines(get_post_exploitation_template())
         print("Created 03-post-exploitation.md")
-
+    with open(os.path.join(MACHINE_FOLDER_PATH, "99-attackers-playbook.md"), 'w') as temp_file:
+        temp_file.writelines(get_playbook_template())
+        print("Created 99-attackers-playbook.md")
 
 # Create the file info machine
 with open(os.path.join(MACHINE_FOLDER_PATH, machine_data.name + ".md"), 'w') as temp_file:
