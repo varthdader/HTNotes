@@ -27,8 +27,20 @@ action obsidian://shell-commands/?vault=HTB&execute=m6e17y5rts
 templater true
 color blue
 ```
+---
+#### Playbook Updates
+- This will run a script to change all INSERTIPADDRESS values in templates to actual target IP  
+- This will run a script to change all INSERTHOSTNAME values in templates to actual hostname  
+- This is useful for copy/paste of commands into console
+- Similar buttons can be found in the Playbook and Recon notes found under the host folder
 
-
+```button
+name Update Machine Playbooks
+type link
+action obsidian://shell-commands/?vault=HTB&execute=g2fbjf8y5m
+templater true
+color green
+```
 ---------------------
 
 ## Script Workflow  for  - Update Machines info
