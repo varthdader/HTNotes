@@ -8,3 +8,5 @@ echo "Updated All Available Playbooks for $2"
 ## Then create Obsidian Shell Commands with one of the Vaules shown below (Path is dependant where the button is published) 
 ## /bin/bash {{folder_path:absolute}}/../player.sh {{_ip_address}} {{_machine_name}} "{{folder_path:absolute}}/Machines/{{_machine_name}}/"
 ## /bin/bash {{folder_path:absolute}}/../../../player.sh {{_ip_address}} {{_machine_name}} "{{folder_path:absolute}}"
+
+## TO DO: Port this over to full python
