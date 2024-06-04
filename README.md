@@ -96,6 +96,12 @@ This is the main funtion of the integration. "Create Machine Note" button calls 
 
 ![](HTB/assets/create_machine_example.png)
 
+#### Update Playbooks
+
+This button will trigger an update to the machine playbooks populating them with our actual target hostname and ip address.
+
+![](HTB/assets/update_playbooks_example.png)
+
 #### Update Machine Info
 
 This button is usefull to trigger when you have completed a machine, or you didnt access to HTB in a while. It will `ONLY` update the machine info of all the machines you have in the vault, updating the state of flags and graphs.
