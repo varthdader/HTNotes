@@ -5,6 +5,7 @@ from .index_template import get_index_template
 from .recon_template import get_recon_template
 from .exploitation_template import get_exploitation_template
 from .post_exploitation_template import get_post_exploitation_template
+from .playbook_template import get_playbook_exploitation_template
 
 
 #imports machine info
