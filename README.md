@@ -41,7 +41,7 @@ sudo dpkg -i <<Obsidian.deb>>
 Now you need to clone this repository and install all the dependencies.
 
 ```
-git clone https://github.com/0x4xel/HTNotes
+git clone https://github.com/varthdader/HTNotes
 cd HTNotes
 pip install -r requirements.txt
 ```
